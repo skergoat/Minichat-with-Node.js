@@ -7,7 +7,7 @@ How to start this app ?
 
     - git clone the repository 
     - cd inside the repository 
-    - run npm install to install dependencies
+    - run npm install to get dependencies
     - install and/or start mongodb on your computer 
     - change the connexion infos in dbconnect.js
     - run npm start 
