@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>mon super chat</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+		<link href="/css/style.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+
+		<div class="container">
+
+			<h1 class="title is-1" id="username"></h1>
+
+			<button id="button--delete" class="button is-danger">Supprimer la conversation</button>
+
+			<div class="container--chat" id="chat">
+				<div class="container--chat__messages" id="messages"></div>
+			</div>
+			<div class="container--form">
+				<form method="post" action="/" class="form">
+					<input type="text" class="input" name="chat" autofocus>
+					<div class="button--div">
+						<button id="button--form" class="button is-link" type="submit">Envoyer</button>
+					</div>
+				</form>
+			</div>
+			<audio autoplay><source type="audio/mp3"></audio>
+
+		</div>
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="/js/chat.js"></script>
+	</body>
+</html>
