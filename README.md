@@ -1,5 +1,5 @@
 # minichat
-My first try on Node.js. It's just an uncompleted and boring little chat 
+My first try on Node.js. It's just an uncomplete and boring little chat 
 
 This minichat is made with socket, so it works in real time.  
 
